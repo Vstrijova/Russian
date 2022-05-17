@@ -14,6 +14,7 @@ if language == 'Русский':
     col1.subheader("Русский")
     data = ("1. Пойдем в парк" , "2. Давай играть в прятки", "3. Давай покатаемся на качелях")
     col1.write(data)
-      
+    ittranslations = ("1. Andiamo al parco", "2. Giochiamo a nascondino", "3. Andiamo sull'altalena")
+    col2.write(ittranslations)
     
   
