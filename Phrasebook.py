@@ -10,8 +10,6 @@ language = st.radio( "Выберите язык - Виберіть мову" , (
 if language == 'Русский':
   placechoice = st.selectbox("Куда ты хочешь пойти сегодня? Bыбери одно из указанных мест:", ('Площадка для игр', 'Школа', 'Магазин'))
   if placechoice == 'Площадка для игр':
-    image1 = Image.open('playground.jpg')
-    st.image(image1, caption='Photo by Pond Juprasong on Unsplash')
     col1, col2 = st.columns(2)
     col1.subheader("Русский")
     data = ("1. Пойдем в парк" , "2. Давай играть в прятки", "3. Давай покатаемся на качелях")
